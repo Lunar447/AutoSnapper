@@ -4,7 +4,7 @@ import keyboard
 import tkinter as tk
 
 
-def printScore():
+
     # Create the window
     root = tk.Tk()
     root.title("Snaps Sent")
@@ -28,7 +28,7 @@ root = tk.Tk()
 root.title("Snaps Sent")
 
 while True:
-    username = ""  # Enter Username here
+    username = ""  # Jaydenboe4
     if keyboard.is_pressed('delete'):
         break
     pyautogui.moveTo(993, 485, duration=0.0)
